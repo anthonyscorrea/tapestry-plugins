@@ -1,0 +1,8 @@
+{
+	"id": "co.correa.mlb",
+	"display_name": "MLB",
+	"site": "https://statsapi.mlb.com",
+	"icon": "https://builds.mlbstatic.com/mlb.com/builds/site-core/1606751303311/dist/images/favicon.png",
+	"provides_attachments": true,
+	"version": 2
+}

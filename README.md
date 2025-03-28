@@ -1,0 +1,1 @@
+This connector retrieves live and completed game data from the MLB Stats API. It displays current scores, final results, and provides direct links to each game’s gameday page. Additionally, it offers quick access to the game story and Baseball Theater’s summary, giving users a comprehensive snapshot of game highlights and narratives.

@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "name": "favorite_team_name",
+      "type": "choices",
+      "prompt": "Favorite team",
+      "choices": "All, Athletics, Pittsburgh Pirates, San Diego Padres, Seattle Mariners, San Francisco Giants, St. Louis Cardinals, Tampa Bay Rays, Texas Rangers, Toronto Blue Jays, Minnesota Twins, Philadelphia Phillies, Atlanta Braves, Chicago White Sox, Miami Marlins, New York Yankees, Milwaukee Brewers, Los Angeles Angels, Arizona Diamondbacks, Baltimore Orioles, Boston Red Sox, Chicago Cubs, Cincinnati Reds, Cleveland Guardians, Colorado Rockies, Detroit Tigers, Houston Astros, Kansas City Royals, Los Angeles Dodgers, Washington Nationals, New York Mets"
+    },
+    {
+      "name": "days_to_fetch",
+      "type": "text",
+      "prompt": "Number of past days to fetch",
+      "value": "14"
+    }
+  ]
+}
