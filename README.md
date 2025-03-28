@@ -1,7 +1,9 @@
 # Tapestry Plugin
 
-Plugin for the [Tapestry](https://usetapestry.com) app by the [Iconfactory](https://iconfactory.com).
+Plugins for the [Tapestry](https://usetapestry.com) app by the [Iconfactory](https://iconfactory.com).
 
+| Name | Description |
+| ---- | ----------- |
 | [co.correa.mlb](https://github.com/asc/tapestry-plugins/tree/main/co.correa.mlb) | Retrieves live and completed MLB game data, including scores, gameday links, game stories, and Baseball Theater's summary. |
 
 ## 🚀 Installation
