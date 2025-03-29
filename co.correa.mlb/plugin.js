@@ -176,7 +176,14 @@ function load() {
             ${game.teams.home.isWinner ? '<b>' : ''} ${home_team.abbreviation}${game.teams.home.isWinner ? '</b>' : ''}
         `
         item.body = `
-          ${game.status.statusCode == "F" ? results : ''}
+          ${
+            game.status.statusCode == "F" || //Final: The game has completed.
+            // game.status.statusCode == "S" //Scheduled (or Pre-Game): The game hasn’t started yet.
+            game.status.statusCode == "I" || //In Progress: The game is currently live.
+            game.status.statusCode == "D"    //Delayed: The game is running behind schedule.
+            // game.status.statusCode == "O" //Postponed: The game has been postponed.
+            ? results : ''
+          }
           <br>${(new Date(game.gameDate)).toLocaleDateString()} ${(new Date(game.gameDate)).toLocaleTimeString(undefined, {hour: "numeric", minute: "numeric"})}
           <br><a href="https://baseball.theater/game/_/${game.gamePk}">Baseball Theater</a>
           <br><a href="https://${game.story?.link}">Story</a>
